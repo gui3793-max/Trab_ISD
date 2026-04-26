@@ -22,6 +22,36 @@ int converte_decimal (int bin[], int tam)
     return decimal;
 }
 
+/*int converte_hexadecimal (int bin[], int tam)
+{
+    int i,j,vl,r;
+    char map[] ="0123456789ABCDEF";
+    r = tam % 4 ;
+    
+    if(r != 0)
+    {
+        vl = 0;
+        for(i = 0; i< r;i++)
+            {
+                vl= vl * 2 * bin[i];
+            }
+        printf("c", map[vl]);
+    }
+    for(i=r,i< tam; i+=4)
+        {
+            valor=0;
+            for(j=0; j < 4; j++)
+                {
+                    vl=vl *2 + bin[i+j];
+                }
+                printf("c", map[vl]);
+        }
+}*/
+                    
+        
+    
+}
+
 void complementa1 (int bin[], int tam)
 {
     int i = 0;
